@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 	 @File Name: stylesheet.css
+	 @Authors Name: Kole Turpin
+     @Website Name: None its CSS
+     @Description:  Styles all html files
+*/
+
+/*Fixes background gradient*/
+html {
+	min-height:100%;
+	position:relative;	
+}
+body {
+	/* GoogleFonts */
+	font-family: 'Cantora One', sans-serif;
+	font-size:16px;
+	margin-left:2%;
+	display:block;
+	padding:0;
+	background-repeat:no-repeat 0 0 fixed;
+/*Gradient tool from: http://www.colorzilla.com/gradient-editor/ */ 
+background: rgb(49,190,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(49,190,255,1) 62%, rgba(49,190,255,1) 78%, rgba(193,236,255,1) 100%, rgba(193,236,255,1) 100%, rgba(193,236,255,1) 100%, 					rgba(193,236,255,1) 100%, rgba(193,236,255,1) 100%, rgba(229,247,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(62%,rgba(49,190,255,1)), color-stop(78%,rgba(49,190,255,1)), color-stop(100%,rgba(193,236,255,1)),color-stop(100%,rgba(193,236,255,1)), color-stop(100%,rgba(193,236,255,1)), color-stop(100%,rgba(193,236,255,1)), color-stop(100%,rgba(193,236,255,1)), color-stop(100%,rgba(229,247,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(49,190,255,1) 62%,rgba(49,190,255,1) 78%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(229,247,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(49,190,255,1) 62%,rgba(49,190,255,1) 78%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(229,247,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(49,190,255,1) 62%,rgba(49,190,255,1) 78%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(229,247,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(49,190,255,1) 62%,rgba(49,190,255,1) 78%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(193,236,255,1) 100%,rgba(229,247,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31beff', endColorstr='#e5f7ff',GradientType=0 ); /* IE6-9 */
+	
+}
+/* Nav */
+#nav{
+	text-align:center;
+	margin-right: 100px;
+}
+#nav ul {
+	list-style-type:none;
+	display:inline-block;	
+}
+#nav li{
+	float:left;
+	display:inline;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;	
+}
+#nav li a {
+	display:block;
+	width:100px;
+	color:#FFFFFF;
+	background:#000;
+	position: relative;
+	text-decoration: none;
+	left: 50%;
+	margin-left: auto;
+	border-left: solid 0.25em ;
+	border-right: solid 0.25em ;
+	border-bottom: solid 0.40em ;
+	border-top: solid 0.40em #FFF;
+}
+#nav li a:hover {
+	background:#C00;
+}
+#nav a.active {
+	background:#09F;	
+}
+/* Logo Picture */
+#logo {
+	position:absolute;
+	top:80px;
+	left:20px;	
+}
+/* Index Headers*/
+body h1 {
+	position:absolute;
+	top:200px;
+	color:#FC0;	
+}
+body h2 {
+	position:absolute;
+	text-align:center;
+	top: 350px;
+	margin-left:40%;
+	width:400px;	
+}
+/* Index Content*/
+body p.content {
+	position:absolute;
+	text-align:center;
+	top:400px;
+	margin-left:40%;
+	width:400px;	
+}
+/* About Me Picture*/
+#me {
+	display: block;
+  	margin-left:auto;
+  	margin-right:auto;
+	width:400px;
+	height:auto;	
+}
+/* About Me Text*/
+#aboutme {
+	text-align:center;	
+}
+/* Services Text */
+#services {
+	text-align:center;
+}
+/* Footer */
+footer {
+	text-align:left;
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:60px;
+    width:100%;
+}
