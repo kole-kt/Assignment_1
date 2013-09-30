@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31beff', end
 /* Nav */
 #nav{
 	text-align:center;
-	margin-right: 100px;
+	margin-right:100px;
 }
 #nav ul {
 	list-style-type:none;
@@ -52,14 +52,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#31beff', end
 	width:100px;
 	color:#FFFFFF;
 	background:#000;
-	position: relative;
-	text-decoration: none;
+	position:relative;
+	text-decoration:none;
 	left: 50%;
-	margin-left: auto;
-	border-left: solid 0.25em ;
-	border-right: solid 0.25em ;
-	border-bottom: solid 0.40em ;
-	border-top: solid 0.40em #FFF;
+	margin-left:auto;
+	border-left:solid 0.25em ;
+	border-right:solid 0.25em ;
+	border-bottom:solid 0.40em ;
+	border-top:solid 0.40em #FFF;
 }
 #nav li a:hover {
 	background:#C00;
@@ -110,6 +110,17 @@ body p.content {
 #services {
 	text-align:center;
 }
+/* GitHub Text */
+body p.gitlink {
+	text-align:center;
+	font-weight:bold;
+	font-size:54px;	
+}
+/* Contact Me Text */
+body p.contactme {
+	text-align:center;
+	margin-top:40px;
+}	
 /* Footer */
 footer {
 	text-align:left;
